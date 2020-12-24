@@ -16,7 +16,7 @@ body{
     color:white;
 }
 
-header .container{
+header.container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,9 +44,9 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/ate_o_ultimo_h\ -\ capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/ate_o_ultimo_h_capa.jpg');
 
-    height: 400px;
+    min-height: 400px;
     background-size: cover;
 
     display: flex;
@@ -97,6 +97,7 @@ header nav a:hover{
 
 .porque{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.813em;
     margin: 10px;
 }
 
